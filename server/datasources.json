@@ -1,0 +1,32 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "ds": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "lbtutorial",
+    "password": "ayush",
+    "name": "ds",
+    "user": "root",
+    "connector": "mysql"
+  },
+  "email": {
+    "name": "email",
+    "connector": "mail",
+    "transports": [
+      {
+        "type": "SMTP",
+        "host": "smtp.gmail.com",
+        "secure": true,
+        "port": 465,
+        "auth": {
+          "user": "ayushgupta141001@gmail.com",
+          "pass": "pass"
+        }
+      }
+    ]
+  }
+}
